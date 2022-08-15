@@ -69,7 +69,7 @@ gdown https://drive.google.com/drive/folders/15Rm1K5NahAAq4ZmpLWljgEuNWBTNs95B?u
 ```
 UCF-101 WideResNet-50-2:
 ```
---
+gdown https://drive.google.com/file/d/1sFyKZlnkwTpdpeHLfolvli9hcdV8pnsG/view?usp=sharing -O ./logs/30fr_wrn50_unfrozen --folder
 ```
 If you need weights for other experiments, let us know using email below, we can provide you separately because currently we have space limit on Google Drive.
 
@@ -86,7 +86,7 @@ python main.py --pipeline test --config ./logs/best_model_83_ucf50_wide_resnet50
 ```
 UCF-101 WideResNet-50-2:
 ```
---
+python main.py --pipeline test --config ./logs/30fr_wrn50_unfrozen/config.yaml
 ```
 
 ### Training:
